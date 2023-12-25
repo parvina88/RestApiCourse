@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiCourse", "RestApiCourse\RestApiCourse.csproj", "{B6F584B6-F310-4958-A041-AA3233A3F13F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.GettingStarted", "1.GettingStarted", "{A4043E2A-FA83-49B2-B9D0-4D3A6B23D54C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Api", "Movies.Api\Movies.Api.csproj", "{0DD98BB9-D4E0-46BB-AC71-0F7B87652562}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Api", "Movies.Api\Movies.Api.csproj", "{0DD98BB9-D4E0-46BB-AC71-0F7B87652562}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Application", "Movies.Application\Movies.Application.csproj", "{DB5A40D4-47A8-49A6-A809-2DA752B275F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Application", "Movies.Application\Movies.Application.csproj", "{DB5A40D4-47A8-49A6-A809-2DA752B275F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Contract", "Movies.Contract\Movies.Contract.csproj", "{B20810C4-FAA5-4B2D-AF96-499C75AD4AC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movies.Contract", "Movies.Contract\Movies.Contract.csproj", "{B20810C4-FAA5-4B2D-AF96-499C75AD4AC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B6F584B6-F310-4958-A041-AA3233A3F13F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B6F584B6-F310-4958-A041-AA3233A3F13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B6F584B6-F310-4958-A041-AA3233A3F13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B6F584B6-F310-4958-A041-AA3233A3F13F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0DD98BB9-D4E0-46BB-AC71-0F7B87652562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0DD98BB9-D4E0-46BB-AC71-0F7B87652562}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DD98BB9-D4E0-46BB-AC71-0F7B87652562}.Release|Any CPU.ActiveCfg = Release|Any CPU
