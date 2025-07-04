@@ -52,7 +52,7 @@ namespace Movies.Api.Controllers
         public async Task<IActionResult> Update([FromRoute]Guid id, [FromBody]UpdateMovieRequest request, 
             CancellationToken token)
         {
-            var movie = request.MaptoMovie(id);
+            var movie = request.MapToMovie(id);
             var updatedMovie = await _movieService.UpdateAsync(movie, token);
             if(updatedMovie is null)
                 return NotFound();

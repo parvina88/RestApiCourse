@@ -38,7 +38,7 @@ namespace Movies.Api.Mapping
             };
         }
 
-        public static Movie MaptoMovie(this UpdateMovieRequest request, Guid id)
+        public static Movie MapToMovie(this UpdateMovieRequest request, Guid id)
         {
             return new Movie
             {
