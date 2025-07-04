@@ -25,7 +25,7 @@ namespace Movies.Api.Controllers
         }
 
         [HttpGet(ApiEndpoints.Movies.Get)]
-        public async Task<IActionResult> Get([FromBody] Guid id)
+        public async Task<IActionResult> Get([FromRoute] Guid id)
         {
             var movie = await _movieRepository.GetAsync(id);
             if(movie is null)
@@ -46,7 +46,7 @@ namespace Movies.Api.Controllers
         [HttpPut(ApiEndpoints.Movies.Update)]
         public async Task<IActionResult> Update([FromRoute]Guid id, [FromBody]UpdateMovieRequest request)
         {
-            var movie = request.MaptoMovie(id);
+            var movie = request.MapToMovie(id);
             var updated = await _movieRepository.UpdateAsync(movie);
             if(!updated)
                 return NotFound();
